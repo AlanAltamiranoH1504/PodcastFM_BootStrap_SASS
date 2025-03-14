@@ -1,0 +1,16 @@
+{
+  "name": "04-podcastapp",
+  "version": "1.0.0",
+  "description": "Podcast FM - BootStrap y SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alan Altamirano Hernandez",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.85.1"
+  }
+}
