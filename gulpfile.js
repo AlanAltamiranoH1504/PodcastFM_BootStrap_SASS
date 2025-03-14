@@ -1,4 +1,4 @@
-const {src, dest} = require('gulp');
+const {src, dest, watch} = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 
 //Funcion que compila el codigo de SASS
@@ -9,4 +9,11 @@ function css(done){
 
     done();
 }
+
+//Funcion watcher para compilacion de cambios en hojas de estilos
+function dev(done){
+    watch('src/scss/**/*.scss', css);
+}
+
 exports.css = css;
+exports.dev = dev;
