@@ -1,0 +1,16 @@
+//Paleta de colores
+$verde: #84D9BC;
+$gris: #313C4E;
+
+//Asignamos colores a bootstrap
+$primary: $verde;
+$secondary: $gris;
+
+// Cambiamos tipografia por default
+$headings-font-family: 'Poppins', sans-serif;
+$headings-font-weight: 700;
+$font-family-sans-serif: 'Poppins', sans-serif;
+$h1-font-size:4.5rem;
+
+//Importamos bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

@@ -23,8 +23,7 @@ function imagenes(done){
     src('src/img/**/*')
         .pipe(imagemin({optimizationLevel: 3}))
         .pipe(dest('build/img'))
-
-    done();
+        done();
 }
 
 exports.css = css;

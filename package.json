@@ -9,7 +9,8 @@
   "author": "Alan Altamirano Hernandez",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^5.0.0",
+    "bootstrap": "^5.3.3",
+    "gulp": "^4.0.2",
     "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^6.0.1",
     "sass": "^1.85.1"
