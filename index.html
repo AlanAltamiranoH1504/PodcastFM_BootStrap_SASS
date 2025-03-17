@@ -11,50 +11,113 @@
     <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
-    <!--Header-->
-    <header class="site-header py-5">
-        <div class="container-xl">
-            <div class="logo">
-                <img src="build/img/logo.svg">
-            </div>
-
-            <div class="contenido">
-                <h1 class="text-center text-md-start text-white py-5">
-                    Tu Plataforma para Publicar tus Podcast
-                </h1>
-
-                <a href="#" class="btn btn-primary text-uppercase fw-bolder text-secondary">Crear Cuenta</a>
-            </div>
+<!--Header-->
+<header class="site-header py-5">
+    <div class="container-xl">
+        <div class="logo">
+            <img src="build/img/logo.svg">
         </div>
-    </header>
 
-    <!--Seccion crea tu podcast-->
+        <div class="contenido">
+            <h1 class="text-center text-md-start text-white py-5">
+                Tu Plataforma para Publicar tus Podcast
+            </h1>
+
+            <a href="#" class="btn btn-primary text-uppercase fw-bolder text-secondary">Crear Cuenta</a>
+        </div>
+    </div>
+</header>
+
+<!--Seccion crea tu podcast-->
+<div class="container-xl py-5">
+    <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-md-6">
+            <img src="build/img/imagen_podcast.svg">
+        </div>
+        <div class="col-md-6">
+            <h2 class="text-center fw-bolder text-uppercase">Crea tu PodCast</h2>
+            <p class="mt-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                dolores</p>
+        </div>
+    </div>
+</div>
+<!--Seccion de beneficios-->
+<div class="bg-primary">
     <div class="container-xl py-5">
-        <div class="row d-flex align-items-center justify-content-center">
-            <div class="col-md-6">
-                <img src="build/img/imagen_podcast.svg">
+        <div class="row align-items-center">
+            <div class="col-md-7">
+                <h2 class="text-center">Llega a miles y gana dinero</h2>
+                <p class="my-4">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                    et ea rebum. Stet clita kasd gubergren, no sea takimata
+                </p>
             </div>
-            <div class="col-md-6">
-                <h2 class="text-center fw-bolder text-uppercase">Crea tu PodCast</h2>
-                <p class="mt-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores</p>
-            </div>
-        </div>
-    </div>
-    <!--Seccion de beneficios-->
-    <div class="bg-primary">
-        <div class="container-xl py-5">
-            <div class="row align-items-center">
-                <div class="col-md-7">
-                    <h2 class="text-center">Llega a miles y gana dinero</h2>
-                    <p class="my-4">
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                    </p>
-                </div>
-                <div class="col-md-5">
-                    <img src="build/img/podcast_cover.png" class="img-fluid" style="max-height: 400px">
-                </div>
+            <div class="col-md-5">
+                <img src="build/img/podcast_cover.png" class="img-fluid" style="max-height: 400px">
             </div>
         </div>
     </div>
+</div>
+
+<!--Seccion de estadisticas-->
+<div class="container-xl py-5">
+    <h2 class="text-center">Estadisticas Detalladas</h2>
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+        dolore magna aliquyam erat, sed diam voluptua.</p>
+    <img src="build/img/grafica.svg" class="img-fluid mt-2" style="max-width">
+</div>
+
+<!--Seccion de precios-->
+<div class="bg-secondary py-4">
+    <div class="container-xl py-5">
+        <h2 class="text-white">Planes</h2>
+        <p class="mt-2 text-white">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di</p>
+
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-10">
+                <div class="row mt-3 nuestros-planes">
+                    <div class="col-md-4 bg-white order-2 plan inicio py-3">
+                        <img src="build/img/icono_inicio.svg" style="width: 50">
+                        <h3 class="text-center mb-4">Inicio</h3>
+                        <h5 class="text-center py-1">$2.99 MES</h5>
+                        <p class="text-center py-1"> 30 Episodios</p>
+                        <p class="text-center py-1">Estadisticas</p>
+                        <p class="text-center py-1">App para Ganar</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-primary fw-bolder w-75 text-uppercase">Inscribirme</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 bg-primary order-1 order-md-2 plan negocio py-3 rounded" style="margin-top: -3rem; margin-bottom: -3rem">
+                        <img src="build/img/icono_negocio.svg">
+                        <h3 class="text-center mb-4">Negocio</h3>
+                        <h5 class="text-center py-1">$6.99 MES</h5>
+                        <p class="text-center py-1">Episodios Ilimitados</p>
+                        <p class="text-center py-1">Todas las Plataformas</p>
+                        <p class="text-center py-1">Estadisticas</p>
+                        <p class="text-center py-1">App para Ganar</p>
+                        <p class="text-center py-1">Podcasts Pagados</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn bg-white fw-bolder w-75 text-uppercase">Inscribirme</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 bg-white order-3 plan pro py-3">
+                        <img src="build/img/icono_pro.svg" class="img-fluid">
+                        <h3 class="text-center mb-4">PRO</h3>
+                        <h5 class="text-center py-1">$4.99 MES</h5>
+                        <p class="text-center py-1">50 Episodios</p>
+                        <p class="text-center py-1">Todas las Plataformas</p>
+                        <p class="text-center py-1">Estadisticas</p>
+                        <p class="text-center py-1">App para Ganar</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn bg-primary fw-bolder w-75 text-uppercase">Inscribirme</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

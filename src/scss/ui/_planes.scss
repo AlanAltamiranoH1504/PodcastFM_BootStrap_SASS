@@ -1,0 +1,22 @@
+@use "../custom";
+@use "../utils/mixins" as m;
+
+.plan {
+
+  &:hover{
+    transform: scale(1.1);
+  }
+  &.negocio {
+    @include custom.media-breakpoint-up(md) {
+      margin-top: -5rem;
+    }
+  }
+
+  &.inicio {
+    @include m.bgIcono('../img/icono_inicio.svg')
+  }
+
+  &.pro {
+
+  }
+}

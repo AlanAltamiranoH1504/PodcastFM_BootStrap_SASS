@@ -4,3 +4,10 @@
   background-size: cover;
   background-position: top center;
 }
+
+@mixin bgIcono($url){
+  background-image: url($url);
+  background-size: 10rem;
+  background-position: 50% 2rem;
+  background-repeat: no-repeat;
+}
