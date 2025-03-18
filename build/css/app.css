@@ -11859,3 +11859,18 @@ textarea.form-control-lg {
     max-width: 50%;
   }
 }
+
+.plan:hover {
+  transform: scale(1.1);
+}
+@media (min-width: 768px) {
+  .plan.negocio {
+    margin-top: -5rem;
+  }
+}
+.plan.inicio {
+  background-image: url("../img/icono_inicio.svg");
+  background-size: 10rem;
+  background-position: 50% 2rem;
+  background-repeat: no-repeat;
+}
